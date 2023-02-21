@@ -1,0 +1,32 @@
+.advantage{
+    margin-top: 175px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &__box{
+        position: relative;
+        padding: 15px 10px;
+        width: 376px;
+        height: 450px;
+        background-clip: content-box;
+        border: 2px solid $second-color; 
+        img{
+            position: absolute;
+            z-index: 1;
+        }
+    }
+    &__name{
+        width: 100%;
+        position: absolute;
+        bottom: 65px;
+        left: 50%;
+        transform: translateX(-50%);
+        font-weight: 700;
+        font-size: 27px;
+        line-height: 140%;
+        text-align: center;
+        color: #fff;
+        z-index: 3;
+    }
+    
+}

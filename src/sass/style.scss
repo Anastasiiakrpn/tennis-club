@@ -1,0 +1,13 @@
+@import 'baze/variables';
+*{
+    font-family: 'Gilroy' , sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    max-width: 1240px;
+    margin: 0 auto;
+}
+@import 'blocks/header';
+@import 'blocks/advantage';
+@import 'blocks/info';

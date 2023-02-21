@@ -1,0 +1,124 @@
+header{
+    background: url(../img/promo.jpg) center (center/cover) no-repeat;
+}
+nav{
+    min-height: 106px;
+}
+.promo{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    &__logo{
+        margin-top: 34px;
+        width: 153px;
+        img{
+            width: 100%;
+        }
+    }
+    &__ul{
+        margin-top: 37px;
+        list-style: none;
+        li{
+            display: inline;
+            margin-right: 40px;
+            :hover{
+                color: $first-color;
+                transition: all 1s;
+                font-size: 24px;
+                background-color:#FFFFFF;
+                border-radius: 5%;
+            }  
+            &:last-child{
+                margin-right: 0;
+            }  
+        }
+    }
+    &__li{
+        font-weight: 500;
+        font-size: 14px;
+        color: #FFFFFF;
+        text-decoration: none;
+        transition: 1s;
+        
+    }
+    &__social{
+        margin-top: 35px;
+    }
+    &__link{
+        font-size: 23px;
+        color: #FFFFFF;
+        margin-right: 30px; 
+    }
+}
+.start{
+    margin-top: 200px;
+    padding-left: 190px;
+    &__name{
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 140%;
+        color: #FFFFFF;
+    }
+    &__video{
+        margin-top: 60px;
+        display: flex;
+        align-items: center;
+    }
+    &__btn{
+        position: relative;
+        color:#FFFFFF;
+        font-size: 20px;
+        width: 80px;
+        height: 80px;
+        border-radius: 100%;        
+        background-color: $first-color;
+        background-clip: content-box;
+        padding: 9px;
+        border: 1px solid #FFFFFF;        
+        .fa-solid.fa-play{
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            top: 40%;
+        }
+    }
+    &__descr{
+        margin-left: 30px;
+        display: inline;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 140%;
+        color: #FFFFFF;
+    }
+}
+.servises{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    &__menu{
+        padding: 35px 35px 35px 35px;
+        max-width: 315px;
+        background-color: $first-color;
+    }
+    &__name{
+        margin-bottom: 17px;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 140%;
+        color: #FFFFFF;
+    }
+    &__type{
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 140%;
+        color: #FFFFFF;
+        text-decoration: none;
+    }
+    &__link{
+        color:#FFFFFF;
+        margin-left: 45px;
+        font-size: 20px;
+
+    }
+}
